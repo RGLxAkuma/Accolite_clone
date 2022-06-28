@@ -480,3 +480,141 @@ body
     transform: scale(1.1);
     box-shadow: 2px 2px 15px grey;
 }
+
+.social-menu
+{
+    margin-top: 20px;
+}
+
+.social-menu h3
+{
+    margin-left: 20px;
+}
+
+.social-menu ul
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.cont6
+{
+    position: static;
+    background-color:#d9d9d9;
+    color:#404040;
+    padding-top: 80px;
+    padding: 48px 15px;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-menu ul li .fa
+{
+    padding: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    transition: 0.6s;
+    color: #000;
+}
+
+.social-menu ul li .fa:hover
+{
+    color:white;
+}
+
+.social-menu ul li a
+{
+    display: block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    transition: 0.6s;
+    box-shadow: 0 5px 4px rgba(0,0,0, 0,5);
+}
+
+.social-menu ul li a:hover
+{
+    transform: translate(0 , -10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover
+{
+    background-color: 0A66C2;
+}
+.social-menu ul li:nth-child(2) a:hover
+{
+    background-color: CD201F;
+}
+.social-menu ul li:nth-child(3) a:hover
+{
+    background-color: 1877F2;
+}
+.social-menu ul li:nth-child(4) a:hover
+{
+    background-color: 1DA1F2;
+}
+.social-menu ul li:nth-child(5) a:hover
+{
+    background-color: E4405F;
+}
+
+.floor
+{
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+.floor ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.floor ul li
+{
+    text-align: center;
+    font: size 15px;
+}
+.floor a
+{
+    text-decoration: none;
+    text-align: center;
+}
+
+.floor a{
+    color: #000;
+}
+
+.floor ul li a
+{
+    color: #404040;
+    transition: all 0.5s ease 0s;
+}
+
+.tlt{
+    font-size: 17px;
+    cursor:auto;
+    font-weight: 600;
+}
+
+.floor ul li a:hover
+{
+    color: #40404071;
+}
